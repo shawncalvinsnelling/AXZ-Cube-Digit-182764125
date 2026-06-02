@@ -1,0 +1,69 @@
+{
+  "certificate": {
+    "absent_integer": 4772,
+    "all_interval_unique_values_generated": 102815,
+    "boundary_witness": {
+      "expression": "(1+((8+2)*(7+((6+41)*(2*5)))))",
+      "value": 4771
+    },
+    "consecutive_positive_integers_from_1": 4771,
+    "first_missing_positive_integer": 4772,
+    "maximum_absolute_final_value": 182764125,
+    "maximum_absolute_final_value_bit_length": 28,
+    "maximum_integer_value": 182764125,
+    "minimum_integer_value": -82764124,
+    "negative_integer_values_generated": 45790,
+    "non_positive_integer_values_generated": 45791,
+    "positive_integer_values_generated": 53598,
+    "possible_cut_patterns": 256,
+    "unique_integer_values_generated": 99389,
+    "zero_present": true
+  },
+  "challenge_number": 7,
+  "digit_sequence": [
+    "1",
+    "8",
+    "2",
+    "7",
+    "6",
+    "4",
+    "1",
+    "2",
+    "5"
+  ],
+  "digit_string": "182764125",
+  "hashes": {
+    "all_interval_values_sorted_txt_sha256": "1fb757597b9d916a2c4d533f0533830c9ace4d7c1d6edb9fbb5719ffcb787b96",
+    "all_values_sorted_txt_sha256": "b6cf7a413a9ba8bd212a6be91beeb499760ebde789085e06b3c7464ee4dca065",
+    "negative_values_sorted_txt_sha256": "cff3efe69cac42671b697ba2b4839e055ecd9f6c187648f00ff8fad370ef1924",
+    "nonpositive_values_sorted_txt_sha256": "1395443d3c9fbe88e2625a0f25b8a52734b95f56b4d80feb3221618e4a83ffbb",
+    "positive_values_sorted_txt_sha256": "c2e849f48da9e3921de23c3dd2a0a19e384bbd4b0702b5a55f8fe05587a97dc5",
+    "witnesses_1_to_4771_tsv_sha256": "542d5e6c6e0b2d9cd7d5981a1228b5127de693330fd4f4ea6e857ef87a00ca6b"
+  },
+  "repo": "AXZ-Cube-Digit-182764125",
+  "rules": {
+    "allowed_operations": [
+      "+",
+      "-",
+      "*"
+    ],
+    "concatenation_allowed": true,
+    "digits_used_exactly_once": true,
+    "directional_subtraction_only": true,
+    "fixed_order": true,
+    "forbidden_operations": [
+      "division",
+      "powers",
+      "factorials",
+      "roots",
+      "decimals",
+      "logs",
+      "hidden constants",
+      "digit reordering"
+    ]
+  },
+  "schema": "AXZ-ORDERED-ARITHMETIC-CERTIFICATE-V1",
+  "source_note": "Cube-derived digit string from the blocks 1^3, 2^3, 3^3, 4^3, 5^3 = 1, 8, 27, 64, 125, flattened into 182764125. Exponent notation is source-note only; powers are not allowed operations in the verifier.",
+  "title": "AXZ Cube Digit No-Division Ordered Arithmetic Gap",
+  "truth_label": "CERTIFIED_FINITE_EXACT_INTEGER_RESULT_UNDER_STATED_RULES"
+}

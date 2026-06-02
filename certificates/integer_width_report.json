@@ -1,0 +1,11 @@
+{
+  "bit_length": 28,
+  "digit_string": "182764125",
+  "fits_unsigned_64_bit_final_universe": true,
+  "maximum_absolute_final_value": 182764125,
+  "maximum_final_value": 182764125,
+  "minimum_final_value": -82764124,
+  "note": "The verifier still includes an arbitrary-precision runtime guard above 2^64.",
+  "runtime": "Python arbitrary-precision int",
+  "unsigned_64_bit_limit": 18446744073709551615
+}

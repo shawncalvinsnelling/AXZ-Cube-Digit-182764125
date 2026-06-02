@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axz-cube-digit-182764125"
+version = "1.0.0"
+description = "Finite exact certificate for the cube-derived ordered digit sequence 182764125 under +, -, ×, concatenation, fixed order, and directional subtraction."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Shawn Calvin Snelling"}
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

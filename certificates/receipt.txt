@@ -1,0 +1,35 @@
+AXZ Cube Digit No-Division Ordered Arithmetic Gap
+
+Repository: AXZ-Cube-Digit-182764125
+Challenge: 7
+Digit string: 182764125
+Source note: cube blocks 1^3, 2^3, 3^3, 4^3, 5^3 = 1, 8, 27, 64, 125; powers are not allowed operations.
+
+Truth label:
+CERTIFIED_FINITE_EXACT_INTEGER_RESULT_UNDER_STATED_RULES
+
+Result:
+Every positive integer from 1 through 4771 is representable.
+First missing positive integer: 4772.
+
+Boundary witness:
+4771 = (1+((8+2)*(7+((6+41)*(2*5)))))
+
+Certificate:
+Possible cut patterns: 256
+Unique integer values generated: 99,389
+Positive integer values generated: 53,598
+Non-positive integer values generated: 45,791
+Negative integer values generated: 45,790
+Zero present: true
+Minimum integer value: -82,764,124
+Maximum integer value: 182,764,125
+All-interval unique values generated: 102,815
+
+Hashes:
+All-values SHA-256: b6cf7a413a9ba8bd212a6be91beeb499760ebde789085e06b3c7464ee4dca065
+Positive-values SHA-256: c2e849f48da9e3921de23c3dd2a0a19e384bbd4b0702b5a55f8fe05587a97dc5
+Non-positive-values SHA-256: 1395443d3c9fbe88e2625a0f25b8a52734b95f56b4d80feb3221618e4a83ffbb
+Negative-values SHA-256: cff3efe69cac42671b697ba2b4839e055ecd9f6c187648f00ff8fad370ef1924
+All-interval-values SHA-256: 1fb757597b9d916a2c4d533f0533830c9ace4d7c1d6edb9fbb5719ffcb787b96
+Witnesses SHA-256: 542d5e6c6e0b2d9cd7d5981a1228b5127de693330fd4f4ea6e857ef87a00ca6b
